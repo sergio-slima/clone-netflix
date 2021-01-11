@@ -16,6 +16,19 @@
     .trailer video {
         max-width: 90%;
     }
+
+    .info p {
+        margin-bottom: 10px;
+        font-family: Arial, sans-serif;
+        font-size: 10px;
+    }
+
+    .info .logo-dbv {
+        width: 50px;
+        height: 50px;
+        align-content: center;
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (min-width:1000px) {

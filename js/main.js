@@ -5,3 +5,8 @@ function toggle() {
     video.pause();
     video.currentTime = 0;
 }
+
+function infor() {
+    var info=document.querySelector(".info")
+    info.classList.toggle("active")
+}

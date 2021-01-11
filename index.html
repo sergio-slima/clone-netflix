@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- responsividade -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- owl css -->
+    <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl/owl.theme.default.min.css">
+
+    <title>Desbravadores</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo"><img class="logotipo" src="img/logo.png"></h2>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#especialidades">Especialidades</a>
+                <a href="#classes">Classes</a>
+                <a href="#clubes">Clubes</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div id="inicio" class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">DESBRAVADORES</h3>
+                <p class="descricao">Os Desbravadores, também conhecidos como Clube de Desbravadores, são um departamento da Igreja Adventista do Sétimo Dia (IASD), que trabalha especificamente com a educação cultural, social e religiosa de crianças e adolescentes situadas na faixa etária entre 10 e 15 anos.</p>
+                
+                <div class="botoes">
+                    <button role="button" class="botao" onclick="toggle();">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+                <div class="trailer">
+                    <video src="img/desbravadores-trailer.mp4" controls="true"></video>
+                    <img src="img/close.png" class="close" onclick="toggle();">
+                </div>
+                <script type="text/javascript">
+                    function toggle() {
+                        var trailer=document.querySelector(".trailer")
+                        var video=document.querySelector("video")
+                        trailer.classList.toggle("active");
+                        video.pause();
+                        video.currentTime = 0;
+                    }
+                </script>
+            </div>
+        </div>
+    </main>
+
+    <h4 id="especialidades" class="tema">Especialidades</h4>
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/esp1.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/esp2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/esp3.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/esp4.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/esp5.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/esp6.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/esp7.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/esp8.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/esp9.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/esp10.jpg" alt="">
+            </div>                                       
+            <div class="item">
+                <img class="box-filme" src="img/esp11.jpg" alt="">
+            </div>                                       
+            <div class="item">
+                <img class="box-filme" src="img/esp12.jpg" alt="">
+            </div>                                       
+            <div class="item">
+                <img class="box-filme" src="img/esp13.jpg" alt="">
+            </div>                                       
+            <div class="item">
+                <img class="box-filme" src="img/esp14.jpg" alt="">
+            </div>                                       
+            <div class="item">
+                <img class="box-filme" src="img/esp15.jpg" alt="">
+            </div>                                       
+            <div class="item">
+                <img class="box-filme" src="img/esp16.jpg" alt="">
+            </div>                                                                                                            
+        </div>
+    </div>
+
+    <h4 id="classes" class="tema">Classes Regulares e Avançadas</h4>
+
+    <div class="carrosel-series">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/classe1.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/classe2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/classe3.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/classe4.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/classe5.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/classe6.jpg" alt="">
+            </div>
+        </div>
+    </div> 
+
+    <h4 id="pioneiros" class="tema">Pioneiros de Impacto Mundial</h4>
+    
+    <div class="carrosel-pessoas">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/john-hancock.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/lester-bond.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/arthur-spalding.png" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/henry-berg.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/laurence-skinner.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/nercida-ruiz.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/wilson-sarli.jpg" alt="">
+            </div>                                                              
+        </div>
+    </div> 
+
+    <script src="https://kit.fontawesome.com/54ecf2e3f9.js"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+<footer> 
+    <div class="footer">
+        <div>
+            <ul>
+                <li>Inicio</li>
+                <li>Especialidades</li>
+                <li>Classes</li>
+                <li>Pioneiros</li>
+            </ul>
+        </div>
+        <div>
+            <p>By: Sergio Lima</p>
+            <a href="https://www.linkedin.com/in/sergio-silva-lima-b99237140" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>   
+</footer>
+
+</html>

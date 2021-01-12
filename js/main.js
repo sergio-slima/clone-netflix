@@ -10,3 +10,8 @@ function infor() {
     var info=document.querySelector(".info")
     info.classList.toggle("active")
 }
+
+function boxInfor() {
+    var info=document.querySelector(".box-infor")
+    info.classList.toggle("active")
+}

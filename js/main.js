@@ -11,7 +11,14 @@ function infor() {
     info.classList.toggle("active")
 }
 
-function boxInfor() {
-    var info=document.querySelector(".box-infor")
-    info.classList.toggle("active")
+function boxInfor1() {
+    var info=document.getElementById("box-infor");
+    
+    if(info.style.visibility === "hidden"){
+        info.style.visibility = "visible";
+        info.style.opacity = 1;
+    } else {
+        info.style.visibility = "hidden";
+        info.style.opacity = 0;
+    }
 }

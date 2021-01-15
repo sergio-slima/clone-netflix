@@ -283,6 +283,28 @@ header nav a:hover {
     margin-top: 20px;
 }
 
+.back-to-top {
+    background-color: #38322e;
+    border-radius: 65px;
+    bottom: 14px;
+    box-shadow: 2px 3px 19px -2px rgba(0, 0, 0, .75);
+    color: #d9a000;
+    cursor: pointer;
+    height: 40px;
+    position: fixed;
+    right: 22px;
+    width: 40px;
+    z-index: 3;
+  }
+
+  .back-to-top p {
+      font-size: 11px;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      margin-top: 5px;
+  }
+
 .footer {
     display: relative;
     height: 200px;
@@ -306,4 +328,8 @@ header nav a:hover {
     margin-top: -50px;
     size: 50px;
     filter: invert(10);
+}
+
+.footer  {
+    font-size: xx-large;
 }

@@ -18,7 +18,7 @@ Homepage baseado no projeto clone da netflix do Digital Innovation One.
 <br>
 
 <p align="center">
-  <img alt="Logo" src="./img/Tela1.png" width="30%">
+  <img alt="Logo" src="./img/Tela1.PNG" width="30%">
 </p>
 
 ## 🚀 Tecnologias
